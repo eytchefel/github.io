@@ -977,5 +977,22 @@ section {
   margin-bottom: 4rem; /* space between sections */
 }
 
+.about-center {
+  display: flex;
+  flex-direction: column;  /* stack them vertically */
+  align-items: center;     /* center horizontally */
+  justify-content: center; /* optional: center vertically if needed */
+  gap: 3rem;               /* space between My Skills and Education */
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 2rem;       /* optional spacing from top */
+}
+
+.about-center .about-stats,
+.about-center .timeline {
+  width: 70%; /* controls the width of each box */
+}
+
+
 
 /*# sourceMappingURL=styles.css.map */
