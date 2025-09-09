@@ -6,7 +6,7 @@
 }
 
 :root {
-  --color-primary: #FFFFFF;
+  --color-primary: #fff7f7;
   --color-secondary: #F56692;
   --color-white: #454e56;
   --color-black: #000;
@@ -21,7 +21,7 @@
 
 .light-mode {
   --color-primary: #191d2b;
-  --color-secondary: #27AE60;
+  --color-secondary: #27aeac;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -183,7 +183,7 @@ section {
   height: 100%;
   object-fit: cover;
   transition: all 0.4s ease-in-out;
-  filter: grayscale(100%);
+  filter: grayscale(0%);
 }
 .header-content .left-header .image img:hover {
   filter: grayscale(0);
