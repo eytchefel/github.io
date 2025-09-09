@@ -993,22 +993,37 @@ section {
   width: 70%; /* controls the width of each box */
 }
 
-/* About Stats Centered */
-.about-stats.centered {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 900px; /* adjust as needed */
+/* Center My Skills and Education */
+.about-center {
+  display: flex;
+  flex-direction: column;  /* stack them vertically */
+  align-items: center;     /* horizontal center */
+  justify-content: center; /* optional: vertical centering */
+  gap: 3rem;               /* space between skills and education */
+  max-width: 900px;        /* optional, keeps content from stretching too much */
+  margin: 0 auto;          /* center on page */
+  padding: 3rem 1rem;      /* spacing around */
+  width: 100%;
 }
 
-.timeline {
-    display: inline-block;
-    text-align: left;
-    margin-top: 20px;
+/* Make stats fill container but remain centered */
+.about-center .about-stats {
+  width: 100%;             /* fill container width */
+  text-align: center;      /* center text inside */
 }
 
-.stat-title {
-    font-size: 2rem;
-    margin-bottom: 30px;
+/* Make timeline fill container but remain centered */
+.about-center .timeline {
+  width: 100%;
+  display: block;          /* override grid if needed */
+  margin: 0 auto 2rem;     /* center block with some space at bottom */
+}
+
+/* Stat title */
+.about-center .stat-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 
