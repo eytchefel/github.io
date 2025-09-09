@@ -6,8 +6,22 @@
 }
 
 :root {
-  --color-primary: #ffe3f4;
+   --color-primary: #fff5f9;
   --color-secondary: #F56692;
+  --color-white: #454e56;
+  --color-black: #000;
+  --color-grey0: #f8f8f8;
+  --color-grey-1: #6c7983;
+  --color-grey-2: #6c7983;
+  --color-grey-3: #6c7983;
+  --color-grey-4: #454e56;
+  --color-grey-5: #f8f8f8;
+  --color-grey-6: #12181b;
+}
+
+.light-mode {
+  --color-primary: #002b2c;
+  --color-secondary: #005d49;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -19,20 +33,6 @@
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
-}
-
-.light-mode {
-  --color-primary: #002b2c;
-  --color-secondary: #005d49;
-  --color-white: #454e56;
-  --color-black: #000;
-  --color-grey0: #f8f8f8;
-  --color-grey-1: #6c7983;
-  --color-grey-2: #6c7983;
-  --color-grey-3: #6c7983;
-  --color-grey-4: #454e56;
-  --color-grey-5: #f8f8f8;
-  --color-grey-6: #12181b;
 }
 
 body {
