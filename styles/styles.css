@@ -269,6 +269,10 @@ section {
   text-transform: uppercase;
 }
 
+.justified-text {
+    text-align: justify;
+}
+
 .about-stats {
   padding-bottom: 4rem;
 }
