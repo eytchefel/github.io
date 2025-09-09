@@ -993,6 +993,23 @@ section {
   width: 70%; /* controls the width of each box */
 }
 
+/* About Stats Centered */
+.about-stats.centered {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 900px; /* adjust as needed */
+}
+
+.timeline {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.stat-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
 
 
 /*# sourceMappingURL=styles.css.map */
