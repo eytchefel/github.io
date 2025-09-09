@@ -17,6 +17,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #f8f8f8;
   --color-grey-6: #12181b;
+}
 
 .light-mode {
   --color-primary: #191d2b;
@@ -32,8 +33,6 @@
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
-}
-
 }
 
 body {
@@ -208,16 +207,21 @@ section {
 
 /*About*/
 .about-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding-top: 3.5rem;
-  padding-bottom: 5rem;
+  display: flex;               /* side by side */
+  justify-content: center;     /* center horizontally */
+  align-items: center;         /* center vertically */
+  min-height: 100vh;           /* take full viewport height */
+  gap: 5rem;                   /* space between skills & education */
+  padding: 0 5%;               /* margins on the sides */
+  flex-wrap: wrap;             /* stack on smaller screens */
 }
-.about-container .right-about {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+
+/* Each section inside (Skills / Education) */
+.left-about, .right-about {
+  flex: 1 1 400px;             /* grow/shrink with a minimum width */
+  max-width: 600px;            /* optional: prevent too wide */
 }
+
 .about-container .right-about .about-item {
   border: 1px solid var(--color-grey-5);
   border-radius: 5px;
