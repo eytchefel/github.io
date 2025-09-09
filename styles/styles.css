@@ -961,4 +961,21 @@ section {
   }
 }
 
+/* Center My Skills and Education */
+.about-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontal center */
+  max-width: 900px;    /* optional, keeps content from stretching too much */
+  margin: 0 auto;      /* center on page */
+  padding: 3rem 1rem;  /* spacing around */
+}
+
+.about-center .about-stats,
+.about-center .timeline {
+  width: 100%;         /* fill container width */
+  margin-bottom: 4rem; /* space between sections */
+}
+
+
 /*# sourceMappingURL=styles.css.map */
