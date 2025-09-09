@@ -621,6 +621,21 @@ section {
   display: flex;
   justify-content: flex-start;
 }
+.contact-icons {
+    display: flex;
+    justify-content: center; /* centers icons horizontally */
+    gap: 20px; /* space between icons */
+    margin-top: 20px; /* optional spacing from other elements */
+}
+.contact-icons a i {
+    font-size: 2rem; /* make icons bigger */
+    color: var(--color-secondary); /* change icon color */
+    transition: color 0.3s;
+}
+.contact-icons a:hover i {
+    color: var(--color-white); /* hover effect */
+}
+
 
 /*Independed components*/
 .btn-con {
